@@ -19,3 +19,1076 @@ DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is depreca
   [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `scores`[0m
   [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `users`[0m
   [1m[35m (0.2ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'users'[0m
+Started GET "/" for 127.0.0.1 at 2018-04-20 20:45:37 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (12.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.4ms)
+  Rendered messages/index.html.haml within layouts/application (30.0ms)
+Completed 500 Internal Server Error in 196ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: config/colors.
+Load paths:
+  /Users/naoya/project2/chatspace/app/assets/config
+  /Users/naoya/project2/chatspace/app/assets/images
+  /Users/naoya/project2/chatspace/app/assets/javascripts
+  /Users/naoya/project2/chatspace/app/assets/stylesheets
+  /Users/naoya/project2/chatspace/vendor/assets/javascripts
+  /Users/naoya/project2/chatspace/vendor/assets/stylesheets
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/font-awesome-rails-4.7.0.4/app/assets/fonts
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/font-awesome-rails-4.7.0.4/app/assets/stylesheets
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/assets/compiled
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.1.0/lib/assets/javascripts):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title DataBaseDesignSample
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:1
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___3165926679116291114_70103648883040'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.6ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (79.9ms)
+Started GET "/" for 127.0.0.1 at 2018-04-20 20:46:15 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (7.0ms)
+  Rendered messages/index.html.haml within layouts/application (20.3ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: config/colors.
+Load paths:
+  /Users/naoya/project2/chatspace/app/assets/config
+  /Users/naoya/project2/chatspace/app/assets/images
+  /Users/naoya/project2/chatspace/app/assets/javascripts
+  /Users/naoya/project2/chatspace/app/assets/stylesheets
+  /Users/naoya/project2/chatspace/vendor/assets/javascripts
+  /Users/naoya/project2/chatspace/vendor/assets/stylesheets
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/font-awesome-rails-4.7.0.4/app/assets/fonts
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/font-awesome-rails-4.7.0.4/app/assets/stylesheets
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/assets/compiled
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.1.0/lib/assets/javascripts):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title DataBaseDesignSample
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:1
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___3165926679116291114_70103687634040'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (72.4ms)
+Started GET "/" for 127.0.0.1 at 2018-04-20 20:48:16 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.3ms)
+  Rendered messages/index.html.haml within layouts/application (14.6ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: config/_colors.
+Load paths:
+  /Users/naoya/project2/chatspace/app/assets/config
+  /Users/naoya/project2/chatspace/app/assets/images
+  /Users/naoya/project2/chatspace/app/assets/javascripts
+  /Users/naoya/project2/chatspace/app/assets/stylesheets
+  /Users/naoya/project2/chatspace/vendor/assets/javascripts
+  /Users/naoya/project2/chatspace/vendor/assets/stylesheets
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/font-awesome-rails-4.7.0.4/app/assets/fonts
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/font-awesome-rails-4.7.0.4/app/assets/stylesheets
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actioncable-5.0.7/lib/assets/compiled
+  /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.1.0/lib/assets/javascripts):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title DataBaseDesignSample
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:1
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___3165926679116291114_70103675453740'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (71.4ms)
+Started GET "/" for 127.0.0.1 at 2018-04-20 20:48:58 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.0ms)
+  Rendered messages/index.html.haml within layouts/application (12.3ms)
+Completed 200 OK in 289ms (Views: 287.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-20 21:00:21 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (3.5ms)
+  Rendered messages/index.html.haml within layouts/application (14.9ms)
+Completed 200 OK in 42ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 18:24:01 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (12.1ms)
+  Rendered messages/index.html.haml within layouts/application (116.7ms)
+Completed 200 OK in 177ms (Views: 163.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 18:36:05 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (9.3ms)
+  Rendered messages/index.html.haml within layouts/application (27.0ms)
+Completed 200 OK in 145ms (Views: 143.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 18:56:50 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (7.0ms)
+  Rendered messages/index.html.haml within layouts/application (22.6ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 18:58:48 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.0ms)
+  Rendered messages/index.html.haml within layouts/application (11.8ms)
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 18:58:51 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.3ms)
+  Rendered messages/index.html.haml within layouts/application (19.0ms)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 19:16:12 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.5ms)
+  Rendered messages/index.html.haml within layouts/application (14.8ms)
+Completed 200 OK in 109ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 19:37:52 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.4ms)
+  Rendered messages/index.html.haml within layouts/application (13.4ms)
+Completed 200 OK in 45ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 19:37:55 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (3.5ms)
+  Rendered messages/index.html.haml within layouts/application (12.4ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 19:42:24 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.2ms)
+  Rendered messages/index.html.haml within layouts/application (18.6ms)
+Completed 200 OK in 101ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 19:42:47 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.2ms)
+  Rendered messages/index.html.haml within layouts/application (14.0ms)
+Completed 200 OK in 38ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 19:56:17 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.3ms)
+  Rendered messages/index.html.haml within layouts/application (14.8ms)
+Completed 200 OK in 44ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-21 20:15:30 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.1ms)
+  Rendered messages/index.html.haml within layouts/application (26.2ms)
+Completed 200 OK in 229ms (Views: 217.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 15:44:13 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (10.0ms)
+  Rendered messages/index.html.haml within layouts/application (38.7ms)
+Completed 200 OK in 95ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 16:37:38 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (6.0ms)
+  Rendered messages/index.html.haml within layouts/application (23.0ms)
+Completed 200 OK in 61ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 17:51:04 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (7.5ms)
+  Rendered messages/index.html.haml within layouts/application (20.6ms)
+Completed 200 OK in 135ms (Views: 131.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 17:56:28 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (10.0ms)
+  Rendered messages/index.html.haml within layouts/application (28.0ms)
+Completed 200 OK in 162ms (Views: 159.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 17:58:44 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (6.4ms)
+  Rendered messages/index.html.haml within layouts/application (19.0ms)
+Completed 200 OK in 125ms (Views: 122.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:00:25 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.1ms)
+  Rendered messages/index.html.haml within layouts/application (17.4ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after ".../messages.scss"": expected selector or at-rule, was "= require font-..."):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title Chat Space
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:10
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___3700087271503486638_70267938035140'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.1ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.9ms)
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:02:20 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.0ms)
+  Rendered messages/index.html.haml within layouts/application (21.5ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after ".../messages.scss"": expected selector or at-rule, was "@import "font-a..."):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title Chat Space
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:9
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___3700087271503486638_70267910020100'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (78.3ms)
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:02:30 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.8ms)
+  Rendered messages/index.html.haml within layouts/application (14.3ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "import ": expected selector or at-rule, was ""font-awesome";"):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title Chat Space
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:9
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___3700087271503486638_70267937538680'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (63.8ms)
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:03:48 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.0ms)
+  Rendered messages/index.html.haml within layouts/application (14.7ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after ".../messages.scss"": expected selector or at-rule, was "@import "font-a..."):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title Chat Space
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:9
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___3700087271503486638_70267955762840'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.2ms)
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:04:28 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.5ms)
+  Rendered messages/index.html.haml within layouts/application (19.3ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after ".../messages.scss"": expected selector or at-rule, was "@import "font-a..."):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title Chat Space
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:9
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___3700087271503486638_70267955741220'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.9ms)
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:05:26 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (12.9ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.5ms)
+  Rendered messages/index.html.haml within layouts/application (24.7ms)
+Completed 500 Internal Server Error in 192ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after ".../messages.scss"": expected selector or at-rule, was "@import "font-a..."):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title Chat Space
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:9
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___1254765962200083367_70308573625180'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.5ms)
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:15:31 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (239.4ms)
+  Rendered messages/index.html.haml within layouts/application (249.8ms)
+Completed 500 Internal Server Error in 256ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `current_user' for #<#<Class:0x007fe3fd9184b0>:0x007fe3fe09e360>
+Did you mean?  current_page?):
+    4:       ユーザーネーム
+    5:     %ul.header__lists
+    6:     .left-contents__user__bt1
+    7:       = link_to edit_user_path(current_user) do
+    8:         %i.fa.fa-cog
+    9:     .left-contents__user__bt2
+   10:       = link_to new_group_path do
+  
+app/views/shared/_side_bar.html.haml:7:in `_app_views_shared__side_bar_html_haml__860616796396656347_70308599544740'
+app/views/messages/index.html.haml:3:in `_app_views_messages_index_html_haml__454362285936441920_70308598185060'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (74.2ms)
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:15:53 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (191.1ms)
+  Rendered messages/index.html.haml within layouts/application (198.6ms)
+Completed 500 Internal Server Error in 205ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `edit_user_path' for #<#<Class:0x007fe3fd9184b0>:0x007fe3fe24d530>):
+    4:       ユーザーネーム
+    5:     %ul.header__lists
+    6:     .left-contents__user__bt1
+    7:       = link_to edit_user_path do
+    8:         %i.fa.fa-cog
+    9:     .left-contents__user__bt2
+   10:       = link_to new_group_path do
+  
+app/views/shared/_side_bar.html.haml:7:in `_app_views_shared__side_bar_html_haml__860616796396656347_70308597549560'
+app/views/messages/index.html.haml:3:in `_app_views_messages_index_html_haml__454362285936441920_70308599068320'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.7ms)
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:16:41 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (1.9ms)
+  Rendered messages/index.html.haml within layouts/application (15.7ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+    4:       ユーザーネーム
+    5:     %ul.header__lists
+    6:     .left-contents__user__bt1
+    7:         %i.fa.fa-cog
+    8:     .left-contents__user__bt2
+    9:       = link_to new_group_path do
+   10:         %i.fa.fa-pencil-square-o
+  
+app/views/shared/_side_bar.html.haml:7
+app/views/messages/index.html.haml:3:in `_app_views_messages_index_html_haml__454362285936441920_70308598806200'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (72.2ms)
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:16:55 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.5ms)
+  Rendered messages/index.html.haml within layouts/application (13.2ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after ".../messages.scss"": expected selector or at-rule, was "@import "font-a..."):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title Chat Space
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:9
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___1254765962200083367_70308574850740'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.1ms)
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:17:39 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.2ms)
+  Rendered messages/index.html.haml within layouts/application (15.1ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after ".../messages.scss"": expected selector or at-rule, was "@import "font-a..."):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title Chat Space
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:9
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___1254765962200083367_70308600473140'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.1ms)
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:17:51 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.5ms)
+  Rendered messages/index.html.haml within layouts/application (14.0ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after ".../messages.scss"": expected selector or at-rule, was "@import "font-a..."):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title Chat Space
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:9
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___1254765962200083367_70308562416100'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (68.6ms)
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:17:58 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.6ms)
+  Rendered messages/index.html.haml within layouts/application (16.3ms)
+Completed 200 OK in 97ms (Views: 95.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:18:07 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.7ms)
+  Rendered messages/index.html.haml within layouts/application (11.7ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:53:10 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (2.9ms)
+  Rendered messages/index.html.haml within layouts/application (12.7ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+    4:       ユーザーネーム
+    5:     %ul.header__lists
+    6:       %li.list
+    7:           = fa_icon 'pencil-square-o', class: 'icon'
+    8:       %li.list
+    9:           = fa_icon 'cog', class: 'icon'
+   10:   .groups
+  
+app/views/shared/_side_bar.html.haml:7
+app/views/messages/index.html.haml:3:in `_app_views_messages_index_html_haml__454362285936441920_70308601355460'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (75.5ms)
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:53:22 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.5ms)
+  Rendered messages/index.html.haml within layouts/application (13.3ms)
+Completed 200 OK in 45ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:54:00 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.3ms)
+  Rendered messages/index.html.haml within layouts/application (14.4ms)
+Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:54:45 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (3.9ms)
+  Rendered messages/index.html.haml within layouts/application (13.2ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after ".../messages.scss"": expected selector or at-rule, was "@import "font-a..."):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title Chat Space
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = yield
+  
+app/assets/stylesheets/application.scss:9
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___1254765962200083367_70308564019640'
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (75.7ms)
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:55:06 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.5ms)
+  Rendered messages/index.html.haml within layouts/application (14.9ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 18:55:36 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.9ms)
+  Rendered messages/index.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 40ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (7.3ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT GET_LOCK('2825686197411808290', 0);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddIndexToUsers (20180413074648)
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class AddIndexToUsers < ActiveRecord::Migration[4.2] (called from load at /Users/naoya/.rbenv/versions/2.3.1/bin/rake:23)
+  [1m[35m (38.2ms)[0m  [1m[35mDROP INDEX `index_users_on_name_and_email` ON `users`[0m
+  [1m[35mSQL (2.3ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20180413074648'[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT RELEASE_LOCK('2825686197411808290')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `notes`[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'notes'[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `scores`[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `users`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'users'[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `notes`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'notes'[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `scores`[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `users`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'users'[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `notes`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'notes'[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `scores`[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `users`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'users'[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `notes`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'notes'[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `scores`[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `users`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'users'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('2825686197411808290', 0);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddIndexToUsers (20180413074648)
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class AddIndexToUsers < ActiveRecord::Migration[4.2] (called from load at /Users/naoya/.rbenv/versions/2.3.1/bin/rake:23)
+  [1m[35m (15.8ms)[0m  [1m[35mCREATE  INDEX `index_users_on_name_and_email`  ON `users` (`name`, `email`) [0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20180413074648')[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Migrating to DeviseCreateUsers (20180424074902)
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE `users` (`id` int AUTO_INCREMENT PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('2825686197411808290')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('2825686197411808290', 0);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateUsers (20180424074902)
+  [1m[35m (23.3ms)[0m  [1m[35mCREATE TABLE `users` (`id` int AUTO_INCREMENT PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (13.8ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  [1m[35m (9.3ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) [0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20180424074902')[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('2825686197411808290')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `notes`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'notes'[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `scores`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW CREATE TABLE `users`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'users'[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (18.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS `DataBaseDesignSample_development`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS `DataBaseDesignSample_test`[0m
+  [1m[35m (18.1ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (13.5ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('4412131981485880785', 0);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddIndexToUsers (20180413074648)
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class AddIndexToUsers < ActiveRecord::Migration[4.2] (called from load at /Users/naoya/.rbenv/versions/2.3.1/bin/rake:23)
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE  INDEX `index_users_on_name_and_email`  ON `users` (`name`, `email`) [0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4412131981485880785')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4412131981485880785', 0);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddIndexToUsers (20180413074648)
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class AddIndexToUsers < ActiveRecord::Migration[4.2] (called from load at /Users/naoya/.rbenv/versions/2.3.1/bin/rake:23)
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE  INDEX `index_users_on_name_and_email`  ON `users` (`name`, `email`) [0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4412131981485880785')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (7.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS `ChatSpace_development`[0m
+  [1m[35m (0.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS `ChatSpace_test`[0m
+  [1m[35m (17.6ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (12.0ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('4412131981485880785', 0);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddIndexToUsers (20180413074648)
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class AddIndexToUsers < ActiveRecord::Migration[4.2] (called from load at /Users/naoya/.rbenv/versions/2.3.1/bin/rake:23)
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE  INDEX `index_users_on_name_and_email`  ON `users` (`name`, `email`) [0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('4412131981485880785')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (4.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS `ChatSpace_development`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS `ChatSpace_test`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS `chat-space_development`[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS `chat-space_test`[0m
+  [1m[35m (15.5ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (11.7ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('4412131981485880785', 0);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddIndexToUsers (20180413074648)
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class AddIndexToUsers < ActiveRecord::Migration[4.2] (called from load at /Users/naoya/.rbenv/versions/2.3.1/bin/rake:23)
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE  INDEX `index_users_on_name_and_email`  ON `users` (`name`, `email`) [0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('4412131981485880785')[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('4412131981485880785', 0);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateUsers (20180424074902)
+  [1m[35m (12.8ms)[0m  [1m[35mCREATE TABLE `users` (`id` int AUTO_INCREMENT PRIMARY KEY, `name` varchar(255) NOT NULL, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (9.1ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  [1m[35m (8.2ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) [0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20180424074902')[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2018-04-24 08:40:03', '2018-04-24 08:40:03')[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('4412131981485880785')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `users`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'users'[0m
+Started GET "/" for 127.0.0.1 at 2018-04-24 17:41:35 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (6.7ms)
+  Rendered messages/index.html.haml within layouts/application (31.5ms)
+Completed 200 OK in 331ms (Views: 318.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-24 17:44:12 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (15.8ms)
+  Rendered messages/index.html.haml within layouts/application (31.8ms)
+Completed 200 OK in 868ms (Views: 864.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-24 17:44:51 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (4.5ms)
+  Rendered messages/index.html.haml within layouts/application (14.6ms)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-24 21:33:53 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (4.7ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_side_bar.html.haml (5.9ms)
+  Rendered messages/index.html.haml within layouts/application (29.3ms)
+Completed 200 OK in 1118ms (Views: 1108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-24 21:38:29 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_group.html.haml (1.8ms)
+  Rendered shared/_side_bar.html.haml (6.3ms)
+  Rendered messages/index.html.haml within layouts/application (15.9ms)
+Completed 200 OK in 47ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-24 21:42:04 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_group.html.haml (1.7ms)
+  Rendered shared/_side_bar.html.haml (5.9ms)
+  Rendered shared/_message.html.haml (3.0ms)
+  Rendered messages/index.html.haml within layouts/application (18.2ms)
+Completed 200 OK in 51ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-24 21:42:26 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_group.html.haml (1.4ms)
+  Rendered shared/_side_bar.html.haml (5.5ms)
+  Rendered shared/_message.html.haml (2.5ms)
+  Rendered messages/index.html.haml within layouts/application (16.6ms)
+Completed 200 OK in 42ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-24 21:49:01 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_group.html.haml (2.2ms)
+  Rendered shared/_side_bar.html.haml (7.2ms)
+  Rendered shared/_message.html.haml (4.8ms)
+  Rendered messages/index.html.haml within layouts/application (27.7ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/naoya/project2/chatspace/app/views/layouts/application.html.haml:4: syntax error, unexpected ':', expecting ')'
+...t.attributes({}, nil,:content : "text/html; charset=UTF-8", ...
+...                               ^
+/Users/naoya/project2/chatspace/app/views/layouts/application.html.haml:4: syntax error, unexpected ',', expecting ')'
+...t : "text/html; charset=UTF-8", "http-equiv" => "Content-Typ...
+...                               ^
+/Users/naoya/project2/chatspace/app/views/layouts/application.html.haml:4: syntax error, unexpected =>, expecting ')'
+...charset=UTF-8", "http-equiv" => "Content-Type")).to_s);; _ha...
+...                               ^
+/Users/naoya/project2/chatspace/app/views/layouts/application.html.haml:4: syntax error, unexpected ')', expecting keyword_end
+...quiv" => "Content-Type")).to_s);; _hamlout.buffer << (">\n<t...
+...                               ^):
+  
+app/views/layouts/application.html.haml:4: syntax error, unexpected ':', expecting ')'
+app/views/layouts/application.html.haml:4: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.haml:4: syntax error, unexpected =>, expecting ')'
+app/views/layouts/application.html.haml:4: syntax error, unexpected ')', expecting keyword_end
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.5ms)
+Started GET "/" for 127.0.0.1 at 2018-04-24 21:49:20 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_group.html.haml (1.6ms)
+  Rendered shared/_side_bar.html.haml (5.9ms)
+  Rendered shared/_message.html.haml (1.9ms)
+  Rendered messages/index.html.haml within layouts/application (22.2ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/naoya/project2/chatspace/app/views/layouts/application.html.haml:4: syntax error, unexpected ':', expecting ')'
+...t.attributes({}, nil,:content : text/html; charset=UTF-8, "h...
+...                               ^
+/Users/naoya/project2/chatspace/app/views/layouts/application.html.haml:4: syntax error, unexpected =>, expecting ')'
+... charset=UTF-8, "http-equiv" => "Content-Type")).to_s);; _ha...
+...                               ^
+/Users/naoya/project2/chatspace/app/views/layouts/application.html.haml:4: syntax error, unexpected ')', expecting keyword_end
+...quiv" => "Content-Type")).to_s);; _hamlout.buffer << (">\n<t...
+...                               ^):
+  
+app/views/layouts/application.html.haml:4: syntax error, unexpected ':', expecting ')'
+app/views/layouts/application.html.haml:4: syntax error, unexpected =>, expecting ')'
+app/views/layouts/application.html.haml:4: syntax error, unexpected ')', expecting keyword_end
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.1ms)
+Started GET "/" for 127.0.0.1 at 2018-04-24 21:50:00 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_group.html.haml (1.7ms)
+  Rendered shared/_side_bar.html.haml (5.7ms)
+  Rendered shared/_message.html.haml (1.9ms)
+  Rendered messages/index.html.haml within layouts/application (16.3ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/naoya/project2/chatspace/app/views/layouts/application.html.haml:4: syntax error, unexpected ':', expecting ')'
+...t.attributes({}, nil,:content : text/html; charset=UTF-8, ht...
+...                               ^
+/Users/naoya/project2/chatspace/app/views/layouts/application.html.haml:4: syntax error, unexpected ':', expecting ')'
+...ml; charset=UTF-8, http-equiv : Content-Type)).to_s);; _haml...
+...                               ^
+/Users/naoya/project2/chatspace/app/views/layouts/application.html.haml:4: syntax error, unexpected ')', expecting keyword_end
+...tp-equiv : Content-Type)).to_s);; _hamlout.buffer << (">\n<t...
+...                               ^):
+  
+app/views/layouts/application.html.haml:4: syntax error, unexpected ':', expecting ')'
+app/views/layouts/application.html.haml:4: syntax error, unexpected ':', expecting ')'
+app/views/layouts/application.html.haml:4: syntax error, unexpected ')', expecting keyword_end
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/naoya/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.1ms)
+Started GET "/" for 127.0.0.1 at 2018-04-24 21:51:05 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_group.html.haml (2.2ms)
+  Rendered shared/_side_bar.html.haml (7.3ms)
+  Rendered shared/_message.html.haml (2.7ms)
+  Rendered messages/index.html.haml within layouts/application (20.8ms)
+Completed 200 OK in 65ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-24 21:51:05 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_group.html.haml (5.0ms)
+  Rendered shared/_side_bar.html.haml (14.3ms)
+  Rendered shared/_message.html.haml (3.4ms)
+  Rendered messages/index.html.haml within layouts/application (37.2ms)
+Completed 200 OK in 87ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-24 21:52:27 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_group.html.haml (1.9ms)
+  Rendered shared/_side_bar.html.haml (6.3ms)
+  Rendered shared/_message.html.haml (2.1ms)
+  Rendered messages/index.html.haml within layouts/application (16.9ms)
+Completed 200 OK in 43ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-24 21:52:29 +0900
+Processing by MessagesController#index as HTML
+  Rendering messages/index.html.haml within layouts/application
+  Rendered shared/_group.html.haml (1.6ms)
+  Rendered shared/_side_bar.html.haml (5.7ms)
+  Rendered shared/_message.html.haml (1.7ms)
+  Rendered messages/index.html.haml within layouts/application (21.1ms)
+Completed 200 OK in 43ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
