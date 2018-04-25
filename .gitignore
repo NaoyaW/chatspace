@@ -19,3 +19,5 @@
 *.jpg
 
 *.png
+
+log/development.log
