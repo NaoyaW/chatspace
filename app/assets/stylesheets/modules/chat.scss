@@ -43,6 +43,7 @@
     box-sizing: border-box;
     padding: 46px 40px 0;
     height: 637px;
+    overflow: auto;
     .message {
       .upper-message {
         display: flex;
