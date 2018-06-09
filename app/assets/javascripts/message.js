@@ -20,9 +20,12 @@ $(document).on('turbolinks:load', function(){
                 </div>`
     return html;
   }
+  //メッセージのスクロール
+  function scroll(){
+    $(".messages").animate({scrollTop:$('.messages')[0].scrollHeight});
+  }
   $('#new_message').on('submit', function(e){
     e.preventDefault();
-    console.log("aaa")
     var formData = new FormData(this);
     var url = $(this).attr('action')
     $.ajax({
@@ -36,8 +39,8 @@ $(document).on('turbolinks:load', function(){
   .done(function(data){
       var html = buildHTML(data);
       $('.messages').append(html);
-      $(".messages").animate({scrollTop:$('.messages')[0].scrollHeight});
-      $('.form__message').val('');
+      scroll();
+      $('form')[0].reset();
       $(".form__submit").removeAttr("disabled");
     })
     .fail(function(){

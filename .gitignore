@@ -21,3 +21,5 @@
 *.png
 
 log/development.log
+
+/public
