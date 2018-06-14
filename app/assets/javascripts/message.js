@@ -52,7 +52,6 @@ $(document).on('turbolinks:load', function(){
     if (location.href.match(/\/groups\/\d+\/messages/)){
       $(".messages").animate({scrollTop:$('.messages')[0].scrollHeight});
       var message_id = $('.message').last().data('id')
-      console.log(message_id)
       $.ajax({
         url: location.href,
         type: "GET",
