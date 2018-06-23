@@ -22,4 +22,6 @@
 
 log/development.log
 
+config/secrets.yml
+
 
